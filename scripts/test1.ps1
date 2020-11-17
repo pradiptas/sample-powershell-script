@@ -1,1 +1,1 @@
-Write-Host "This is a sample output!"
+Write-Host "This is a sample powershell output!"
