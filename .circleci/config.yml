@@ -20,6 +20,6 @@ jobs:
           name: "Generate Dummy artifacts"
           command: | 
            mkdir -p /tmp/dummy_dumps
-           cp /artifacts/*.html /tmp/dummy_dumps
+           cp *.html /tmp/dummy_dumps
       - store_artifacts:
           path: /tmp/dummy_dumps
