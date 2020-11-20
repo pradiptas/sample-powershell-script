@@ -11,7 +11,7 @@ jobs:
       - run: dotnet tool install --global PowerShell --version 6.0.0
       - run: pwsh ./scripts/test1.ps1
       - run: 
-         command: echo "This is a bash output"
+         command: echo "This is a bash output - DEVOPS DEMO !"
          shell: bash.exe
       - run:
          command: echo "This is a command output"
